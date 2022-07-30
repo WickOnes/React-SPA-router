@@ -6,6 +6,7 @@ import Photo from "./components/Photo";
 import {Contacts} from "./components/Contacts";
 import Header from "./components/Header";
 import Contact from "./components/Contact";
+import Start from "./components/Start";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Router>
         <Header/>
           <Route path="/" exact component={Main} />
+          <Route path="/React-SPA-router" component={Start} />
           <Route path="/Publication" exact component={Publication} />
           <Route path="/Photo" exact component={Photo} />
           <Route path="/Contacts" exact component={Contacts} />
