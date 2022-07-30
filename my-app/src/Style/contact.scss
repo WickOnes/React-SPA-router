@@ -1,0 +1,49 @@
+
+.main-content{
+    width: 70%;
+    background:rgba(255, 255, 255, 0.386);
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    border-radius:20px;
+    box-shadow:0 0 10px 5px white;
+    &__info{
+        width: 20%;
+        p{
+            margin-top: 10px;
+        }
+    }
+    &__other{
+        text-align: start;
+        p{
+            margin-top: 20px;
+        }
+    }
+}
+.gender {
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.male {
+    background-image: url("../icons/male.png");
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+   
+}
+.female {
+    background-image: url("../icons/female.png");
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+   
+}
+.nonGender {
+    background-image: url("../icons/nonGender.png");
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+}

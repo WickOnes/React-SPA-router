@@ -1,0 +1,81 @@
+.contents {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    p {
+        height: 25px;
+        margin: 0;
+    }
+    &__contact {
+        overflow-x: scroll;
+        height: 240px;
+        width: 100%;
+        text-align: start;
+        box-shadow:0 0 10px 5px white;
+    }
+    .main {
+        width: 100%;
+        background: rgba(21, 0, 0, 0.27);
+        box-shadow: 0 0 10px 0 rgb(2, 65, 255);
+        font-size: 14px;
+        color: black;
+    }
+
+    .gender {
+        text-align: center;
+        display: flex;
+        justify-content: end;
+        position: relative;
+    }
+    .phone {
+        color: rgb(69, 243, 6);
+    }
+    .searchPeople {
+        font-size: 20px;
+        margin-bottom: 20px;
+        height: 40px;
+        background: rgba(128, 128, 128, 0.453);
+        border: none;
+        width: 200px;
+    }
+
+    .male {
+        background-image: url("../icons/male.png");
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+        position: absolute;
+        top: -30px;
+        right: 20px;
+    }
+    .female {
+        background-image: url("../icons/female.png");
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+        position: absolute;
+        top: -30px;
+        right: 20px;
+    }
+    .nonGender {
+        background-image: url("../icons/nonGender.png");
+        width: 50px;
+        height: 40px;
+        background-size: cover;
+        position: absolute;
+        top: -30px;
+        right: 10px;
+    }
+    span {
+        color: aliceblue;
+    }
+    .checkBox {
+        margin-bottom: 20px;
+        border: 2px solid rgb(9, 47, 186);
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
